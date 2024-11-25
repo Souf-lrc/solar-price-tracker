@@ -7,3 +7,6 @@
 2024-11-18 08:12:29,745 - INFO - Récupération des taux de fret
 2024-11-18 08:12:30,013 - INFO - Données brutes sauvegardées dans data/raw/2024-11-18_freight_rates.csv
 2024-11-18 08:12:30,016 - INFO - Historique des taux mis à jour
+2024-11-25 08:12:38,737 - INFO - Récupération des taux de fret
+2024-11-25 08:12:39,006 - INFO - Données brutes sauvegardées dans data/raw/2024-11-25_freight_rates.csv
+2024-11-25 08:12:39,009 - INFO - Historique des taux mis à jour
