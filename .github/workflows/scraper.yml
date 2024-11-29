@@ -2,7 +2,7 @@ name: Price Data Collection
 
 on:
   schedule:
-    - cron: '0 8 * * 1'  # Tous les lundis à 8h00 UTC
+    - cron: '0 8 * * 1'
   workflow_dispatch:
 
 jobs:
@@ -29,6 +29,9 @@ jobs:
     
     - name: Run PV price scraper
       run: python scraper.py
+      
+    - name: Run EnergyTrend scraper
+      run: python EnergyTrendScraper.py
       
     - name: Run Freightos rate collector
       env:
