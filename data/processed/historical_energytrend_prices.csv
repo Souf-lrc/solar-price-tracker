@@ -1,0 +1,32 @@
+module_type,high,low,avg,change,date
+,item,High,Low,Avg,2024-11-29
+,Mono Recharge Polysilicon (RMB),38,35,37,2024-11-29
+,Mono Dense Polysilicon (RMB),36,33,35,2024-11-29
+,N-Type Polysilicon (RMB),40,37,40,2024-11-29
+,Polysilicon Outside China (USD),23.5,13.1,19.8,2024-11-29
+,item,High,Low,Avg,2024-11-29
+,M10 Mono Wafer - 182mm/150μm (RMB),1.15,1.05,1.1,2024-11-29
+,M10 Mono Wafer - 182mm/150μm (USD),0.146,0.133,0.139,2024-11-29
+,G12 Mono Wafer - 210mm/150μm (RMB),1.7,1.6,1.65,2024-11-29
+,G12 Mono Wafer - 210mm/150μm (USD),0.214,0.202,0.208,2024-11-29
+,N-Type M10 Mono Wafer -182mm/130μm (RMB),1.05,1,1.03,2024-11-29
+,N-Type G12 Mono Wafer - 210mm/130μm (RMB),1.45,1.4,1.43,2024-11-29
+,N-Type 210R Mono Wafer-182mm/130μm (RMB),1.2,1.16,1.18,2024-11-29
+,item,High,Low,Avg,2024-11-29
+,M10 Mono PERC Cell (RMB),0.28,0.26,0.27,2024-11-29
+,M10 Mono PERC Cell (USD),0.038,0.035,0.036,2024-11-29
+,G12 Mono PERC Cell (RMB),0.28,0.27,0.27,2024-11-29
+,G12 Mono PERC Cell (USD),0.039,0.036,0.036,2024-11-29
+,M10 TOPCon Cell (RMB),0.285,0.28,0.28,2024-11-29
+,G12 TOPCon Cell (RMB),0.285,0.28,0.28,2024-11-29
+,G12R TOPCon Cell (RMB),0.29,0.27,0.27,2024-11-29
+,item,High,Low,Avg,2024-11-29
+,182mm facial Mono PERC Module (RMB),0.71,0.68,0.69,2024-11-29
+,210mm facial Mono PERC Module (RMB),0.73,0.69,0.7,2024-11-29
+,182mm Bifacial Mono PERC Module (RMB),0.72,0.68,0.7,2024-11-29
+,210mm Bifacial Mono PERC Module (RMB),0.74,0.7,0.71,2024-11-29
+,182mm TOPCon Module (RMB),0.78,0.68,0.72,2024-11-29
+,210mm HJT Module (RMB),0.88,0.8,0.86,2024-11-29
+,item,High,Low,Avg,2024-11-29
+,2.0mm Coating (RMB),12.5,12,12,2024-11-29
+,3.2mm Coating (RMB),20.5,20,20,2024-11-29
