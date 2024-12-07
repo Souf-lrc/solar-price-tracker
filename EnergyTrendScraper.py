@@ -37,40 +37,40 @@ class EnergyTrendScraper:
             return None
 
     def parse_data(self, html):
-    try:
-        soup = BeautifulSoup(html, 'html.parser')
-        data = []
-        
-        # Trouver toutes les tables
-        tables = soup.find_all('table')
-        
-        # La table des modules est la 5ème table (index 4)
-        if len(tables) >= 5:
-            modules_table = tables[4]
-            rows = modules_table.find_all('tr')
+        try:
+            soup = BeautifulSoup(html, 'html.parser')
+            data = []
             
-            current_category = ""
-            for row in rows:
-                cols = row.find_all(['td', 'th'])
-                if len(cols) >= 4:
-                    # Gestion des en-têtes de catégorie
-                    if 'item' in cols[0].get_text(strip=True).lower():
-                        continue
-                        
-                    # Extraction des données
-                    data.append({
-                        'module_type': cols[0].get_text(strip=True),
-                        'high': cols[1].get_text(strip=True),
-                        'low': cols[2].get_text(strip=True),
-                        'avg': cols[3].get_text(strip=True),
-                        'change': cols[4].get_text(strip=True) if len(cols) > 4 else "",
-                        'date': datetime.now().strftime('%Y-%m-%d')
-                    })
+            # Trouver toutes les tables
+            tables = soup.find_all('table')
             
-        return data
-    except Exception as e:
-        self.logger.error(f"Erreur lors du parsing: {str(e)}")
-        return None
+            # La table des modules est la 5ème table (index 4)
+            if len(tables) >= 5:
+                modules_table = tables[4]
+                rows = modules_table.find_all('tr')
+                
+                current_category = ""
+                for row in rows:
+                    cols = row.find_all(['td', 'th'])
+                    if len(cols) >= 4:
+                        # Gestion des en-têtes de catégorie
+                        if 'item' in cols[0].get_text(strip=True).lower():
+                            continue
+                            
+                        # Extraction des données
+                        data.append({
+                            'module_type': cols[0].get_text(strip=True),
+                            'high': cols[1].get_text(strip=True),
+                            'low': cols[2].get_text(strip=True),
+                            'avg': cols[3].get_text(strip=True),
+                            'change': cols[4].get_text(strip=True) if len(cols) > 4 else "",
+                            'date': datetime.now().strftime('%Y-%m-%d')
+                        })
+                
+            return data
+        except Exception as e:
+            self.logger.error(f"Erreur lors du parsing: {str(e)}")
+            return None
 
     def save_data(self, data):
         try:
