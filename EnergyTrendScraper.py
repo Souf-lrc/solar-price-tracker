@@ -37,32 +37,40 @@ class EnergyTrendScraper:
             return None
 
     def parse_data(self, html):
-        try:
-            soup = BeautifulSoup(html, 'html.parser')
-            data = []
+    try:
+        soup = BeautifulSoup(html, 'html.parser')
+        data = []
+        
+        # Trouver toutes les tables
+        tables = soup.find_all('table')
+        
+        # La table des modules est la 5ème table (index 4)
+        if len(tables) >= 5:
+            modules_table = tables[4]
+            rows = modules_table.find_all('tr')
             
-            tables = soup.find_all('table')
-            for table in tables:
-                rows = table.find_all('tr')
-                for row in rows[:2]:
-                    cols = row.find_all(['td', 'th'])
-                    if cols and 'PERC Module' in cols[0].get_text():
-                        for data_row in rows[1:]:
-                            cols = data_row.find_all(['td', 'th'])
-                            if len(cols) >= 5:
-                                data.append({
-                                    'module_type': cols[0].get_text(strip=True),
-                                    'high': cols[1].get_text(strip=True),
-                                    'low': cols[2].get_text(strip=True),
-                                    'avg': cols[3].get_text(strip=True),
-                                    'change': cols[4].get_text(strip=True),
-                                    'date': datetime.now().strftime('%Y-%m-%d')
-                                })
+            current_category = ""
+            for row in rows:
+                cols = row.find_all(['td', 'th'])
+                if len(cols) >= 4:
+                    # Gestion des en-têtes de catégorie
+                    if 'item' in cols[0].get_text(strip=True).lower():
+                        continue
+                        
+                    # Extraction des données
+                    data.append({
+                        'module_type': cols[0].get_text(strip=True),
+                        'high': cols[1].get_text(strip=True),
+                        'low': cols[2].get_text(strip=True),
+                        'avg': cols[3].get_text(strip=True),
+                        'change': cols[4].get_text(strip=True) if len(cols) > 4 else "",
+                        'date': datetime.now().strftime('%Y-%m-%d')
+                    })
             
-            return data
-        except Exception as e:
-            self.logger.error(f"Erreur lors du parsing: {str(e)}")
-            return None
+        return data
+    except Exception as e:
+        self.logger.error(f"Erreur lors du parsing: {str(e)}")
+        return None
 
     def save_data(self, data):
         try:
