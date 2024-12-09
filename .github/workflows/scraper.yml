@@ -44,6 +44,7 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
+        git pull origin main --rebase  # Ajout de cette ligne
         git add data/raw/*
         git add data/processed/*
         git add data/*.log
