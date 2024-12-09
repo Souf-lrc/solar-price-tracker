@@ -80,6 +80,8 @@ class EnergyTrendScraper:
                 self.logger.error("Aucune donnée à sauvegarder")
                 return False
     
+            self.logger.info(f"Tentative de sauvegarde de {len(data)} entrées")
+            
             # Création du DataFrame avec les nouvelles données
             df_new = pd.DataFrame(data)
             current_date = datetime.now().strftime('%Y-%m-%d')
@@ -87,40 +89,40 @@ class EnergyTrendScraper:
             # Sauvegarde dans le dossier raw
             raw_file = self.raw_dir / f'{current_date}_energytrend_prices.csv'
             df_new.to_csv(raw_file, index=False)
+            self.logger.info(f"Données brutes sauvegardées dans {raw_file}")
             
             # Gestion du fichier historique
             historical_file = self.processed_dir / 'historical_energytrend_prices.csv'
+            self.logger.info(f"Mise à jour du fichier historique {historical_file}")
             
             if historical_file.exists():
-                # Lecture de l'historique
+                self.logger.info("Lecture du fichier historique existant")
                 df_historical = pd.read_csv(historical_file)
+                self.logger.info(f"Nombre d'entrées historiques : {len(df_historical)}")
                 
-                # Pour chaque nouvelle donnée
-                for _, row in df_new.iterrows():
-                    # Vérifie si cette combinaison exacte de module et date existe déjà
-                    existing = df_historical[
-                        (df_historical['module_type'] == row['module_type']) & 
-                        (df_historical['date'] == row['date'])
-                    ]
-                    
-                    # Si elle n'existe pas, l'ajouter
-                    if len(existing) == 0:
-                        df_historical = pd.concat([df_historical, pd.DataFrame([row])])
+                # Fusion des données
+                df_combined = pd.concat([df_historical, df_new])
+                self.logger.info(f"Nombre d'entrées après fusion : {len(df_combined)}")
+                
+                # Suppression des doublons
+                df_combined = df_combined.drop_duplicates(subset=['date', 'module_type'], keep='last')
+                self.logger.info(f"Nombre d'entrées après dédoublonnage : {len(df_combined)}")
             else:
-                df_historical = df_new
+                self.logger.info("Pas de fichier historique existant, création d'un nouveau")
+                df_combined = df_new
             
-            # Tri final
-            df_historical = df_historical.sort_values(['date', 'module_type'])
-            
-            # Sauvegarde
-            df_historical.to_csv(historical_file, index=False)
+            # Sauvegarde finale
+            df_combined.to_csv(historical_file, index=False)
+            self.logger.info("Sauvegarde historique terminée avec succès")
             
             return True
             
         except Exception as e:
             self.logger.error(f"Erreur lors de la sauvegarde: {str(e)}")
+            self.logger.exception("Détail de l'erreur:")
             return False
 
+    
     def run(self):
         self.logger.info("Début du scraping EnergyTrend")
         html_content = self.fetch_data()
