@@ -49,54 +49,74 @@ class EnergyTrendScraper:
                 modules_table = tables[4]
                 rows = modules_table.find_all('tr')
                 
-                current_category = ""
-                for row in rows:
+                for i, row in enumerate(rows):
                     cols = row.find_all(['td', 'th'])
-                    if len(cols) >= 4:
-                        # Gestion des en-têtes de catégorie
-                        if 'item' in cols[0].get_text(strip=True).lower():
-                            continue
-                            
-                        # Extraction des données
-                        data.append({
-                            'module_type': cols[0].get_text(strip=True),
-                            'high': cols[1].get_text(strip=True),
-                            'low': cols[2].get_text(strip=True),
-                            'avg': cols[3].get_text(strip=True),
-                            'change': cols[4].get_text(strip=True) if len(cols) > 4 else "",
-                            'date': datetime.now().strftime('%Y-%m-%d')
-                        })
+                    
+                    # Skip les lignes d'en-tête qui contiennent 'item', 'High', 'Low', etc.
+                    if (len(cols) >= 4 and 
+                        ('item' not in cols[0].get_text(strip=True).lower()) and
+                        ('high' not in cols[1].get_text(strip=True).lower())):
+                        
+                        module_name = cols[0].get_text(strip=True)
+                        if module_name:  # Ne prend que les lignes avec un nom de module
+                            data.append({
+                                'module_type': module_name,
+                                'high': cols[1].get_text(strip=True),
+                                'low': cols[2].get_text(strip=True),
+                                'avg': cols[3].get_text(strip=True),
+                                'change': cols[4].get_text(strip=True) if len(cols) > 4 else "",
+                                'date': datetime.now().strftime('%Y-%m-%d')
+                            })
                 
             return data
         except Exception as e:
             self.logger.error(f"Erreur lors du parsing: {str(e)}")
             return None
 
+    
     def save_data(self, data):
         try:
             if not data:
                 self.logger.error("Aucune donnée à sauvegarder")
                 return False
-
-            df = pd.DataFrame(data)
+    
+            # Création du DataFrame avec les nouvelles données
+            df_new = pd.DataFrame(data)
             current_date = datetime.now().strftime('%Y-%m-%d')
             
+            # Sauvegarde dans le dossier raw
             raw_file = self.raw_dir / f'{current_date}_energytrend_prices.csv'
-            df.to_csv(raw_file, index=False)
+            df_new.to_csv(raw_file, index=False)
             
+            # Gestion du fichier historique
             historical_file = self.processed_dir / 'historical_energytrend_prices.csv'
             
             if historical_file.exists():
+                # Lecture de l'historique
                 df_historical = pd.read_csv(historical_file)
-                df_combined = pd.concat([df_historical, df])
-                df_combined.drop_duplicates(subset=['date', 'module_type'], keep='last', inplace=True)
-            else:
-                df_combined = df
                 
-            df_combined.sort_values(['date', 'module_type'], inplace=True)
-            df_combined.to_csv(historical_file, index=False)
+                # Pour chaque nouvelle donnée
+                for _, row in df_new.iterrows():
+                    # Vérifie si cette combinaison exacte de module et date existe déjà
+                    existing = df_historical[
+                        (df_historical['module_type'] == row['module_type']) & 
+                        (df_historical['date'] == row['date'])
+                    ]
+                    
+                    # Si elle n'existe pas, l'ajouter
+                    if len(existing) == 0:
+                        df_historical = pd.concat([df_historical, pd.DataFrame([row])])
+            else:
+                df_historical = df_new
+            
+            # Tri final
+            df_historical = df_historical.sort_values(['date', 'module_type'])
+            
+            # Sauvegarde
+            df_historical.to_csv(historical_file, index=False)
             
             return True
+            
         except Exception as e:
             self.logger.error(f"Erreur lors de la sauvegarde: {str(e)}")
             return False
