@@ -44,9 +44,9 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git pull origin main --rebase  # Ajout de cette ligne
         git add data/raw/*
         git add data/processed/*
         git add data/*.log
-        git diff --staged --quiet || git commit -m "Update price data [automated]"
+        git commit -m "Update price data [automated]" || echo "No changes to commit"
+        git pull origin main --rebase || true
         git push https://${PAT_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
