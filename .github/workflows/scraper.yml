@@ -47,6 +47,5 @@ jobs:
         git add data/raw/*
         git add data/processed/*
         git add data/*.log
-        git commit -m "Update price data [automated]" || echo "No changes to commit"
-        git pull origin main --rebase || true
+        git diff --staged --quiet || git commit -m "Update price data [automated]"
         git push https://${PAT_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
