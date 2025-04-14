@@ -82,3 +82,6 @@
 2025-04-07 08:12:59,044 - INFO - Récupération des taux de fret
 2025-04-07 08:12:59,438 - INFO - Données brutes sauvegardées dans data/raw/2025-04-07_freight_rates.csv
 2025-04-07 08:12:59,441 - INFO - Historique des taux mis à jour
+2025-04-14 08:12:54,448 - INFO - Récupération des taux de fret
+2025-04-14 08:12:54,852 - INFO - Données brutes sauvegardées dans data/raw/2025-04-14_freight_rates.csv
+2025-04-14 08:12:54,856 - INFO - Historique des taux mis à jour
