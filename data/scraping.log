@@ -208,3 +208,10 @@
 2025-04-14 08:12:52,984 - INFO - Données brutes sauvegardées dans data/raw/2025-04-14_prices.csv
 2025-04-14 08:12:52,990 - INFO - Données historiques mises à jour avec succès
 2025-04-14 08:12:52,990 - INFO - Scraping terminé avec succès
+2025-04-21 08:13:00,960 - INFO - Début du scraping
+2025-04-21 08:13:00,960 - INFO - Tentative de connexion à http://pvinsights.com/index.php
+2025-04-21 08:13:02,223 - INFO - Données récupérées avec succès
+2025-04-21 08:13:02,263 - ERROR - Erreur lors du parsing d'une ligne: could not convert string to float: 'High'
+2025-04-21 08:13:02,266 - INFO - Données brutes sauvegardées dans data/raw/2025-04-21_prices.csv
+2025-04-21 08:13:02,272 - INFO - Données historiques mises à jour avec succès
+2025-04-21 08:13:02,272 - INFO - Scraping terminé avec succès
