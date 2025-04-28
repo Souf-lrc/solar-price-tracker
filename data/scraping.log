@@ -215,3 +215,7 @@
 2025-04-21 08:13:02,266 - INFO - Données brutes sauvegardées dans data/raw/2025-04-21_prices.csv
 2025-04-21 08:13:02,272 - INFO - Données historiques mises à jour avec succès
 2025-04-21 08:13:02,272 - INFO - Scraping terminé avec succès
+2025-04-28 08:30:55,568 - INFO - Début du scraping
+2025-04-28 08:30:55,569 - INFO - Tentative de connexion à http://pvinsights.com/index.php
+2025-04-28 08:30:56,830 - INFO - Données récupérées avec succès
+2025-04-28 08:30:56,838 - ERROR - Échec du scraping
