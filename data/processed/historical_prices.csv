@@ -40,7 +40,8 @@ date,module_type,high,low,average,change,change_percentage,cny_price
 2025-07-21,182mm 550/595Wp PERC Module,0.28,0.06,0.068,0.0,0%,0.551
 2025-07-28,182mm 550/595Wp PERC Module,0.28,0.06,0.068,0.0,0%,0.551
 2025-08-04,182mm 550/595Wp PERC Module,0.28,0.06,0.068,0.0,0%,0.551
-2025-08-11,182mm 550/595Wp PERC Module,0.28,0.06,0.068,0,0%,0.552
+2025-08-11,182mm 550/595Wp PERC Module,0.28,0.06,0.068,0.0,0%,0.552
+2025-08-18,182mm 550/595Wp PERC Module,0.28,0.06,0.068,0,0%,0.552
 2024-11-05,182mm 580/625Wp N-Mono Module,0.17,0.07,0.081,0.0,0%,0.652
 2024-11-07,182mm 580/625Wp N-Mono Module,0.17,0.07,0.081,0.0,0%,0.652
 2024-11-11,182mm 580/625Wp N-Mono Module,0.17,0.07,0.081,0.0,0%,0.652
@@ -82,7 +83,8 @@ date,module_type,high,low,average,change,change_percentage,cny_price
 2025-07-21,182mm 580/625Wp N-Mono Module,0.17,0.07,0.073,0.0,0%,0.592
 2025-07-28,182mm 580/625Wp N-Mono Module,0.17,0.07,0.073,0.0,0%,0.591
 2025-08-04,182mm 580/625Wp N-Mono Module,0.17,0.07,0.073,0.0,0%,0.592
-2025-08-11,182mm 580/625Wp N-Mono Module,0.17,0.07,0.073,0,0%,0.593
+2025-08-11,182mm 580/625Wp N-Mono Module,0.17,0.07,0.073,0.0,0%,0.593
+2025-08-18,182mm 580/625Wp N-Mono Module,0.17,0.07,0.073,0,0%,0.592
 2024-11-05,210mm 600/660Wp PERC Module,0.28,0.075,0.083,0.0,0%,0.668
 2024-11-07,210mm 600/660Wp PERC Module,0.28,0.075,0.083,0.0,0%,0.668
 2024-11-11,210mm 600/660Wp PERC Module,0.28,0.075,0.083,0.0,0%,0.668
@@ -124,7 +126,8 @@ date,module_type,high,low,average,change,change_percentage,cny_price
 2025-07-21,210mm 600/660Wp PERC Module,0.28,0.065,0.071,0.0,0%,0.576
 2025-07-28,210mm 600/660Wp PERC Module,0.28,0.065,0.071,0.0,0%,0.575
 2025-08-04,210mm 600/660Wp PERC Module,0.28,0.065,0.071,0.0,0%,0.576
-2025-08-11,210mm 600/660Wp PERC Module,0.28,0.065,0.071,0,0%,0.576
+2025-08-11,210mm 600/660Wp PERC Module,0.28,0.065,0.071,0.0,0%,0.576
+2025-08-18,210mm 600/660Wp PERC Module,0.28,0.065,0.071,0,0%,0.576
 2024-11-05,Mono PERC Module in China,0.085,0.07,0.077,0.0,0%,0.62
 2024-11-07,Mono PERC Module in China,0.085,0.07,0.077,0.0,0%,0.62
 2024-11-11,Mono PERC Module in China,0.085,0.07,0.077,0.0,0%,0.62
@@ -166,7 +169,8 @@ date,module_type,high,low,average,change,change_percentage,cny_price
 2025-07-21,Mono PERC Module in China,0.075,0.06,0.066,0.0,0%,0.535
 2025-07-28,Mono PERC Module in China,0.075,0.06,0.066,0.0,0%,0.534
 2025-08-04,Mono PERC Module in China,0.075,0.06,0.066,0.0,0%,0.535
-2025-08-11,Mono PERC Module in China,0.075,0.06,0.066,0,0%,0.536
+2025-08-11,Mono PERC Module in China,0.075,0.06,0.066,0.0,0%,0.536
+2025-08-18,Mono PERC Module in China,0.075,0.06,0.066,0,0%,0.535
 2024-11-05,Poly Module,0.27,0.06,0.077,0.0,0%,0.62
 2024-11-07,Poly Module,0.27,0.06,0.077,0.0,0%,0.62
 2024-11-11,Poly Module,0.27,0.06,0.077,0.0,0%,0.62
@@ -208,7 +212,8 @@ date,module_type,high,low,average,change,change_percentage,cny_price
 2025-07-21,Poly Module,0.27,0.05,0.066,0.0,0%,0.535
 2025-07-28,Poly Module,0.27,0.05,0.066,0.0,0%,0.534
 2025-08-04,Poly Module,0.27,0.05,0.066,0.0,0%,0.535
-2025-08-11,Poly Module,0.27,0.05,0.066,0,0%,0.536
+2025-08-11,Poly Module,0.27,0.05,0.066,0.0,0%,0.536
+2025-08-18,Poly Module,0.27,0.05,0.066,0,0%,0.535
 2024-11-05,ThinFilm Solar Module,0.31,0.12,0.184,0.0,0%,1.48
 2024-11-07,ThinFilm Solar Module,0.31,0.12,0.184,0.0,0%,1.481
 2024-11-11,ThinFilm Solar Module,0.31,0.12,0.184,0.0,0%,1.481
@@ -250,4 +255,5 @@ date,module_type,high,low,average,change,change_percentage,cny_price
 2025-07-21,ThinFilm Solar Module,0.34,0.12,0.2,0.0,0%,1.622
 2025-07-28,ThinFilm Solar Module,0.34,0.12,0.2,0.0,0%,1.619
 2025-08-04,ThinFilm Solar Module,0.34,0.12,0.2,0.0,0%,1.622
-2025-08-11,ThinFilm Solar Module,0.34,0.12,0.2,0,0%,1.624
+2025-08-11,ThinFilm Solar Module,0.34,0.12,0.2,0.0,0%,1.624
+2025-08-18,ThinFilm Solar Module,0.34,0.12,0.2,0,0%,1.623
