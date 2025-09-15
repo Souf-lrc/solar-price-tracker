@@ -130,3 +130,5 @@
 2025-09-01 08:13:55,093 - ERROR - Erreur API: upstream connect error or disconnect/reset before headers. reset reason: connection termination
 2025-09-08 08:14:02,866 - INFO - Récupération des taux de fret
 2025-09-08 08:14:03,497 - ERROR - Erreur API: 
+2025-09-15 08:12:52,396 - INFO - Récupération des taux de fret
+2025-09-15 08:12:53,157 - ERROR - Erreur API: 
