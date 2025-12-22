@@ -443,3 +443,7 @@
 2025-12-15 08:16:41,505 - INFO - Données brutes sauvegardées dans data/raw/2025-12-15_prices.csv
 2025-12-15 08:16:41,512 - INFO - Données historiques mises à jour avec succès
 2025-12-15 08:16:41,512 - INFO - Scraping terminé avec succès
+2025-12-22 08:15:51,670 - INFO - Début du scraping
+2025-12-22 08:15:51,670 - INFO - Tentative de connexion à http://pvinsights.com/index.php
+2025-12-22 08:15:53,079 - INFO - Données récupérées avec succès
+2025-12-22 08:15:53,085 - ERROR - Échec du scraping
