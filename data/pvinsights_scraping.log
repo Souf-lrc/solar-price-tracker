@@ -1,0 +1,38 @@
+2026-02-14 23:08:23,956 - INFO - Debut du scraping PVInsights
+2026-02-14 23:08:26,073 - INFO - Tables de prix trouvees: 4
+2026-02-14 23:08:26,073 - INFO - Traitement de la table: PV PolySilicon
+2026-02-14 23:08:26,073 - INFO - Traitement de la table: Solar PV Wafer
+2026-02-14 23:08:26,080 - INFO - Traitement de la table: Solar PV Cell
+2026-02-14 23:08:26,082 - INFO - Traitement de la table: Solar PV Module
+2026-02-14 23:08:26,082 - INFO - Total d'items extraits: 18
+2026-02-14 23:08:26,085 - INFO - Tentative de sauvegarde de 18 entrees
+2026-02-14 23:08:26,134 - INFO - Donnees brutes sauvegardees dans data\raw\2026-02-14_pvinsights_prices.csv
+2026-02-14 23:08:26,134 - INFO - Mise a jour du fichier historique data\processed\historical_pvinsights_prices.csv
+2026-02-14 23:08:26,135 - INFO - Pas de fichier historique existant, creation d'un nouveau
+2026-02-14 23:08:26,139 - INFO - Sauvegarde historique terminee avec succes
+2026-02-14 23:08:26,139 - INFO - Scraping PVInsights termine avec succes
+2026-02-14 23:27:50,594 - INFO - Debut du scraping PVInsights
+2026-02-14 23:27:53,714 - INFO - Tables de prix trouvees: 4
+2026-02-14 23:27:53,714 - INFO - Traitement de la table: PV PolySilicon
+2026-02-14 23:27:53,714 - INFO - Traitement de la table: Solar PV Wafer
+2026-02-14 23:27:53,715 - INFO - Traitement de la table: Solar PV Cell
+2026-02-14 23:27:53,716 - INFO - Traitement de la table: Solar PV Module
+2026-02-14 23:27:53,716 - INFO - Total d'items extraits: 18
+2026-02-14 23:27:53,716 - INFO - Tentative de sauvegarde de 18 entrees
+2026-02-14 23:27:53,727 - ERROR - Erreur lors de la sauvegarde: [Errno 13] Permission denied: 'data\\raw\\2026-02-14_pvinsights_prices.csv'
+2026-02-14 23:27:53,728 - ERROR - Detail de l'erreur:
+Traceback (most recent call last):
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\pvinsights_scraper.py", line 157, in save_data
+    df_new.to_csv(raw_file, index=False)
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\.venv\Lib\site-packages\pandas\core\generic.py", line 3988, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\.venv\Lib\site-packages\pandas\io\formats\format.py", line 1025, in to_csv
+    csv_formatter.save()
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\.venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\.venv\Lib\site-packages\pandas\io\common.py", line 926, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'data\\raw\\2026-02-14_pvinsights_prices.csv'

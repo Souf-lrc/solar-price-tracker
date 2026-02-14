@@ -69,3 +69,80 @@
 2026-01-26 08:16:40,859 - INFO - DÃ©but du scraping EnergyTrend
 2026-02-02 08:28:13,758 - INFO - DÃ©but du scraping EnergyTrend
 2026-02-09 08:35:11,326 - INFO - DÃ©but du scraping EnergyTrend
+2026-02-14 22:14:35,844 - INFO - Début du scraping EnergyTrend
+2026-02-14 22:14:37,509 - INFO - Nombre total de tables trouvées: 7
+2026-02-14 22:14:37,510 - INFO - Traitement de la table: Polysilicon
+2026-02-14 22:14:37,512 - INFO - Traitement de la table: Polysilicon (Per KG)2026/02/11 update
+2026-02-14 22:14:37,512 - INFO - Traitement de la table: Wafer (Per Pcs.)2026/02/11 update
+2026-02-14 22:14:37,512 - INFO - Traitement de la table: Cell (Per Watt)2026/02/11 update
+2026-02-14 22:14:37,513 - INFO - Traitement de la table: Module (Per Watt)2026/02/11 update
+2026-02-14 22:14:37,513 - INFO - Traitement de la table: China Projects Module (Per Watt)2026/02/11 update
+2026-02-14 22:14:37,513 - INFO - Traitement de la table: PV Glass2026/02/11 update
+2026-02-14 22:14:37,514 - INFO - Total d'items extraits: 0
+2026-02-14 22:15:52,208 - INFO - Début du scraping EnergyTrend
+2026-02-14 22:15:53,664 - INFO - Nombre total de tables trouvées: 7
+2026-02-14 22:15:53,667 - INFO - Traitement de la table: Polysilicon
+2026-02-14 22:15:53,670 - INFO - Traitement de la table: Polysilicon (Per KG)2026/02/11 update
+2026-02-14 22:15:53,670 - INFO - Traitement de la table: Wafer (Per Pcs.)2026/02/11 update
+2026-02-14 22:15:53,671 - INFO - Traitement de la table: Cell (Per Watt)2026/02/11 update
+2026-02-14 22:15:53,671 - INFO - Traitement de la table: Module (Per Watt)2026/02/11 update
+2026-02-14 22:15:53,671 - INFO - Traitement de la table: China Projects Module (Per Watt)2026/02/11 update
+2026-02-14 22:15:53,671 - INFO - Traitement de la table: PV Glass2026/02/11 update
+2026-02-14 22:15:53,671 - INFO - Total d'items extraits: 34
+2026-02-14 22:15:53,671 - INFO - Tentative de sauvegarde de 34 entrées
+2026-02-14 22:15:53,681 - INFO - Données brutes sauvegardées dans data\raw\2026-02-14_energytrend_prices.csv
+2026-02-14 22:15:53,681 - INFO - Mise à jour du fichier historique data\processed\historical_energytrend_prices.csv
+2026-02-14 22:15:53,681 - INFO - Lecture du fichier historique existant
+2026-02-14 22:15:53,703 - INFO - Nombre d'entrées historiques : 4
+2026-02-14 22:15:53,705 - INFO - Nombre d'entrées après fusion : 38
+2026-02-14 22:15:53,708 - INFO - Nombre d'entrées après dédoublonnage : 38
+2026-02-14 22:15:53,713 - INFO - Sauvegarde historique terminée avec succès
+2026-02-14 22:15:53,713 - INFO - Scraping EnergyTrend terminé avec succès
+2026-02-14 22:29:37,730 - INFO - Début du scraping EnergyTrend
+2026-02-14 22:29:39,330 - INFO - Nombre total de tables trouvées: 7
+2026-02-14 22:29:39,332 - INFO - Traitement de la table: Polysilicon (Per KG)
+2026-02-14 22:29:39,333 - INFO - Traitement de la table: Wafer (Per Pcs.)
+2026-02-14 22:29:39,334 - INFO - Traitement de la table: Cell (Per Watt)
+2026-02-14 22:29:39,334 - INFO - Traitement de la table: Module (Per Watt)
+2026-02-14 22:29:39,335 - INFO - Traitement de la table: China Projects Module (Per Watt)
+2026-02-14 22:29:39,336 - INFO - Traitement de la table: PV Glass
+2026-02-14 22:29:39,336 - INFO - Total d'items extraits: 17
+2026-02-14 22:29:39,336 - INFO - Tentative de sauvegarde de 17 entrées
+2026-02-14 22:29:39,346 - INFO - Données brutes sauvegardées dans data\raw\2026-02-14_energytrend_prices.csv
+2026-02-14 22:29:39,347 - INFO - Mise à jour du fichier historique data\processed\historical_energytrend_prices.csv
+2026-02-14 22:29:39,347 - INFO - Pas de fichier historique existant, création d'un nouveau
+2026-02-14 22:29:39,350 - INFO - Sauvegarde historique terminée avec succès
+2026-02-14 22:29:39,351 - INFO - Scraping EnergyTrend terminé avec succès
+2026-02-14 23:27:30,570 - INFO - Debut du scraping EnergyTrend
+2026-02-14 23:27:32,361 - INFO - Nombre total de tables trouvees: 7
+2026-02-14 23:27:32,362 - INFO - Traitement de la table: Polysilicon (Per KG)
+2026-02-14 23:27:32,363 - INFO - Traitement de la table: Wafer (Per Pcs.)
+2026-02-14 23:27:32,364 - INFO - Traitement de la table: Cell (Per Watt)
+2026-02-14 23:27:32,365 - INFO - Traitement de la table: Module (Per Watt)
+2026-02-14 23:27:32,365 - INFO - Traitement de la table: China Projects Module (Per Watt)
+2026-02-14 23:27:32,367 - INFO - Traitement de la table: PV Glass
+2026-02-14 23:27:32,368 - INFO - Total d'items extraits: 17
+2026-02-14 23:27:32,368 - INFO - Tentative de sauvegarde de 17 entrees
+2026-02-14 23:27:32,380 - INFO - Donnees brutes sauvegardees dans data\raw\2026-02-14_energytrend_prices.csv
+2026-02-14 23:27:32,381 - INFO - Mise a jour du fichier historique data\processed\historical_energytrend_prices.csv
+2026-02-14 23:27:32,381 - INFO - Lecture du fichier historique existant
+2026-02-14 23:27:32,385 - INFO - Nombre d'entrees historiques : 17
+2026-02-14 23:27:32,390 - INFO - Nombre d'entrees apres fusion : 34
+2026-02-14 23:27:32,393 - INFO - Nombre d'entrees apres dedoublonnage : 17
+2026-02-14 23:27:32,394 - ERROR - Erreur lors de la sauvegarde: [Errno 13] Permission denied: 'data\\processed\\historical_energytrend_prices.csv'
+2026-02-14 23:27:32,395 - ERROR - Detail de l'erreur:
+Traceback (most recent call last):
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\energytrend_scraper.py", line 157, in save_data
+    df_combined.to_csv(historical_file, index=False)
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\.venv\Lib\site-packages\pandas\core\generic.py", line 3988, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\.venv\Lib\site-packages\pandas\io\formats\format.py", line 1025, in to_csv
+    csv_formatter.save()
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\.venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "C:\Users\soufi\Documents\Claude\solar-price-tracker\.venv\Lib\site-packages\pandas\io\common.py", line 926, in get_handle
+    handle = open(
+             ^^^^^
+PermissionError: [Errno 13] Permission denied: 'data\\processed\\historical_energytrend_prices.csv'
