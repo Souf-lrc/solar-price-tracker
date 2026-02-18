@@ -36,3 +36,19 @@ Traceback (most recent call last):
     handle = open(
              ^^^^^
 PermissionError: [Errno 13] Permission denied: 'data\\raw\\2026-02-14_pvinsights_prices.csv'
+2026-02-18 10:43:32,627 - INFO - Debut du scraping PVInsights
+2026-02-18 10:43:33,583 - INFO - Tables de prix trouvees: 4
+2026-02-18 10:43:33,583 - INFO - Traitement de la table: PV PolySilicon
+2026-02-18 10:43:33,583 - INFO - Traitement de la table: Solar PV Wafer
+2026-02-18 10:43:33,584 - INFO - Traitement de la table: Solar PV Cell
+2026-02-18 10:43:33,584 - INFO - Traitement de la table: Solar PV Module
+2026-02-18 10:43:33,585 - INFO - Total d'items extraits: 18
+2026-02-18 10:43:33,585 - INFO - Tentative de sauvegarde de 18 entrees
+2026-02-18 10:43:33,588 - INFO - Donnees brutes sauvegardees dans data/raw/2026-02-18_pvinsights_prices.csv
+2026-02-18 10:43:33,588 - INFO - Mise a jour du fichier historique data/processed/historical_pvinsights_prices.csv
+2026-02-18 10:43:33,588 - INFO - Lecture du fichier historique existant
+2026-02-18 10:43:33,589 - INFO - Nombre d'entrees historiques : 18
+2026-02-18 10:43:33,591 - INFO - Nombre d'entrees apres fusion : 36
+2026-02-18 10:43:33,592 - INFO - Nombre d'entrees apres dedoublonnage : 36
+2026-02-18 10:43:33,593 - INFO - Sauvegarde historique terminee avec succes
+2026-02-18 10:43:33,593 - INFO - Scraping PVInsights termine avec succes
