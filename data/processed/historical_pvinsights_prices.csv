@@ -17,21 +17,39 @@ Solar PV Module,210mm 600/660Wp PERC Module,0.28,0.08,0.087,0,0%,0.681,2026-02-1
 Solar PV Module,Mono PERC Module in China,0.09,0.075,0.081,0,0%,0.634,2026-02-14,
 Solar PV Module,182mm 580/625Wp N-Mono Module,0.17,0.08,0.089,0,0%,0.696,2026-02-14,
 Solar PV Module,ThinFilm Solar Module,0.34,0.12,0.2,0,0%,1.565,2026-02-14,
-PV PolySilicon,PV Grade PolySilicon  (9N/9N+),23.00,5.50,6.19,0,0%,48.4,2026-02-18,pvinsights
+PV PolySilicon,PV Grade PolySilicon  (9N/9N+),23.0,5.5,6.19,0,0%,48.4,2026-02-18,pvinsights
 Solar PV Wafer,156 mm Multi Solar Wafer,0.165,0.088,0.096,0,0%,0.75,2026-02-18,pvinsights
-Solar PV Wafer,182mm Mono Solar Wafer,0.300,0.155,0.167,0,0%,1.31,2026-02-18,pvinsights
+Solar PV Wafer,182mm Mono Solar Wafer,0.3,0.155,0.167,0,0%,1.31,2026-02-18,pvinsights
 Solar PV Wafer,210mm Mono Solar Wafer,0.405,0.215,0.239,0,0%,1.87,2026-02-18,pvinsights
-Solar PV Wafer,182.2mm x 183.75mm N Mono Wafer,0.310,0.150,0.157,0,0%,1.23,2026-02-18,pvinsights
-Solar PV Cell,Multi Cell Price,0.110,0.045,0.049,0,0%,0.383,2026-02-18,pvinsights
-Solar PV Cell,Poly PERC Cell,0.080,0.045,0.049,0,0%,0.383,2026-02-18,pvinsights
-Solar PV Cell,China Mono PERC Cell,0.075,0.050,0.051,0,0%,0.399,2026-02-18,pvinsights
-Solar PV Cell,166mm Mono PERC Cell,0.095,0.050,0.052,0,0%,0.407,2026-02-18,pvinsights
-Solar PV Cell,182mm Mono PERC Cell,0.110,0.050,0.052,0,0%,0.407,2026-02-18,pvinsights
-Solar PV Cell,210mm Mono PERC Cell,0.110,0.050,0.052,0,0%,0.407,2026-02-18,pvinsights
-Solar PV Cell,182mm N-Mono Cell,0.110,0.050,0.052,0,0%,0.407,2026-02-18,pvinsights
-Solar PV Module,Poly Module,0.270,0.065,0.080,0,0%,0.626,2026-02-18,pvinsights
-Solar PV Module,182mm 550/595Wp PERC Module,0.280,0.075,0.083,0,0%,0.649,2026-02-18,pvinsights
-Solar PV Module,210mm 600/660Wp PERC Module,0.280,0.080,0.087,0,0%,0.681,2026-02-18,pvinsights
-Solar PV Module,Mono PERC Module in China,0.090,0.075,0.081,0,0%,0.634,2026-02-18,pvinsights
-Solar PV Module,182mm 580/625Wp N-Mono Module,0.170,0.080,0.089,0,0%,0.696,2026-02-18,pvinsights
-Solar PV Module,ThinFilm Solar Module,0.340,0.120,0.200,0,0%,1.565,2026-02-18,pvinsights
+Solar PV Wafer,182.2mm x 183.75mm N Mono Wafer,0.31,0.15,0.157,0,0%,1.23,2026-02-18,pvinsights
+Solar PV Cell,Multi Cell Price,0.11,0.045,0.049,0,0%,0.383,2026-02-18,pvinsights
+Solar PV Cell,Poly PERC Cell,0.08,0.045,0.049,0,0%,0.383,2026-02-18,pvinsights
+Solar PV Cell,China Mono PERC Cell,0.075,0.05,0.051,0,0%,0.399,2026-02-18,pvinsights
+Solar PV Cell,166mm Mono PERC Cell,0.095,0.05,0.052,0,0%,0.407,2026-02-18,pvinsights
+Solar PV Cell,182mm Mono PERC Cell,0.11,0.05,0.052,0,0%,0.407,2026-02-18,pvinsights
+Solar PV Cell,210mm Mono PERC Cell,0.11,0.05,0.052,0,0%,0.407,2026-02-18,pvinsights
+Solar PV Cell,182mm N-Mono Cell,0.11,0.05,0.052,0,0%,0.407,2026-02-18,pvinsights
+Solar PV Module,Poly Module,0.27,0.065,0.08,0,0%,0.626,2026-02-18,pvinsights
+Solar PV Module,182mm 550/595Wp PERC Module,0.28,0.075,0.083,0,0%,0.649,2026-02-18,pvinsights
+Solar PV Module,210mm 600/660Wp PERC Module,0.28,0.08,0.087,0,0%,0.681,2026-02-18,pvinsights
+Solar PV Module,Mono PERC Module in China,0.09,0.075,0.081,0,0%,0.634,2026-02-18,pvinsights
+Solar PV Module,182mm 580/625Wp N-Mono Module,0.17,0.08,0.089,0,0%,0.696,2026-02-18,pvinsights
+Solar PV Module,ThinFilm Solar Module,0.34,0.12,0.2,0,0%,1.565,2026-02-18,pvinsights
+PV PolySilicon,PV Grade PolySilicon  (9N/9N+),23.00,5.50,6.19,0,0%,48.4,2026-02-25,pvinsights
+Solar PV Wafer,156 mm Multi Solar Wafer,0.165,0.088,0.096,0,0%,0.75,2026-02-25,pvinsights
+Solar PV Wafer,182mm Mono Solar Wafer,0.300,0.155,0.167,0,0%,1.30,2026-02-25,pvinsights
+Solar PV Wafer,210mm Mono Solar Wafer,0.405,0.215,0.239,0,0%,1.87,2026-02-25,pvinsights
+Solar PV Wafer,182.2mm x 183.75mm N Mono Wafer,0.310,0.150,0.157,0,0%,1.23,2026-02-25,pvinsights
+Solar PV Cell,Multi Cell Price,0.110,0.045,0.049,0,0%,0.383,2026-02-25,pvinsights
+Solar PV Cell,Poly PERC Cell,0.080,0.045,0.049,0,0%,0.383,2026-02-25,pvinsights
+Solar PV Cell,China Mono PERC Cell,0.075,0.050,0.051,0,0%,0.399,2026-02-25,pvinsights
+Solar PV Cell,166mm Mono PERC Cell,0.095,0.050,0.052,0,0%,0.406,2026-02-25,pvinsights
+Solar PV Cell,182mm Mono PERC Cell,0.110,0.050,0.052,0,0%,0.406,2026-02-25,pvinsights
+Solar PV Cell,210mm Mono PERC Cell,0.110,0.050,0.052,0,0%,0.406,2026-02-25,pvinsights
+Solar PV Cell,182mm N-Mono Cell,0.110,0.050,0.052,0,0%,0.406,2026-02-25,pvinsights
+Solar PV Module,Poly Module,0.270,0.065,0.080,0,0%,0.625,2026-02-25,pvinsights
+Solar PV Module,182mm 550/595Wp PERC Module,0.280,0.075,0.083,0,0%,0.649,2026-02-25,pvinsights
+Solar PV Module,210mm 600/660Wp PERC Module,0.280,0.080,0.087,0,0%,0.680,2026-02-25,pvinsights
+Solar PV Module,Mono PERC Module in China,0.090,0.075,0.081,0,0%,0.633,2026-02-25,pvinsights
+Solar PV Module,182mm 580/625Wp N-Mono Module,0.170,0.080,0.089,0,0%,0.695,2026-02-25,pvinsights
+Solar PV Module,ThinFilm Solar Module,0.340,0.120,0.200,0,0%,1.563,2026-02-25,pvinsights
