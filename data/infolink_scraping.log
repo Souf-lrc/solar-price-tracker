@@ -167,3 +167,39 @@ PermissionError: [Errno 13] Permission denied: 'data\\raw\\2026-02-14_infolink_p
 2026-02-25 10:51:26,771 - INFO - Nombre d'entrees apres dedoublonnage : 78
 2026-02-25 10:51:26,772 - INFO - Sauvegarde historique terminee avec succes
 2026-02-25 10:51:26,772 - INFO - Scraping InfoLink termine avec succes
+2026-03-04 10:36:15,327 - INFO - Debut du scraping InfoLink
+2026-03-04 10:36:16,273 - INFO - Nombre de sections de tables trouvees: 7
+2026-03-04 10:36:16,273 - INFO - Traitement de la table: Polysilicon
+2026-03-04 10:36:16,273 - INFO -   Ignore (donnees verrouillees): Polysilicon Price - Mono-grade polysilicon - US made (USD)
+2026-03-04 10:36:16,273 - INFO -   Ignore (donnees verrouillees): Polysilicon Price - Mono-grade polysilicon - Other non-China made (USD) (Germany, Malaysia, and other new regions, e.g. Oman)
+2026-03-04 10:36:16,274 - INFO - Traitement de la table: N Type Wafer
+2026-03-04 10:36:16,274 - INFO - Traitement de la table: P Type Cell
+2026-03-04 10:36:16,274 - INFO - Traitement de la table: N Type Cell
+2026-03-04 10:36:16,275 - INFO -   Ignore (donnees verrouillees): TOPCon Cell - SEA made, China polysilicon - 182-183.75mm / 25.3%+ (USD)
+2026-03-04 10:36:16,275 - INFO -   Ignore (donnees verrouillees): TOPCon Cell - SEA made, non-China polysilicon - 182-183.75mm / 25.3%+ (USD)
+2026-03-04 10:36:16,275 - INFO - Traitement de la table: Glass to Glass Bifacial N Type Module
+2026-03-04 10:36:16,275 - INFO -   Ignore (donnees verrouillees): TOPCon high-efficiency modules (640W and above) (USD)
+2026-03-04 10:36:16,276 - INFO - Traitement de la table: China Projects Glass to Glass Bifacial Module
+2026-03-04 10:36:16,276 - INFO - Traitement de la table: Region Module
+2026-03-04 10:36:16,276 - INFO -   Ignore (donnees verrouillees): TOPCon Module - India made cell & module (USD, FOB)
+2026-03-04 10:36:16,277 - INFO -   Ignore (donnees verrouillees): TOPCon Module - US made cell & module (USD, DDP)
+2026-03-04 10:36:16,277 - INFO -   Ignore (donnees verrouillees): TOPCon Module - Europe Utility projects - China made (USD, FOB)
+2026-03-04 10:36:16,277 - INFO -   Ignore (donnees verrouillees): TOPCon Module - Middle East projects - China made (USD, FOB)
+2026-03-04 10:36:16,277 - INFO -   Ignore (donnees verrouillees): TOPCon Module - Asia-Pacific projects - China made (USD, FOB)
+2026-03-04 10:36:16,277 - INFO -   Ignore (donnees verrouillees): TOPCon Module - Latin America projects - China made (USD, FOB)
+2026-03-04 10:36:16,277 - INFO -   Ignore (donnees verrouillees): TOPCon Module - Africa projects - China made (USD, FOB)
+2026-03-04 10:36:16,277 - INFO -   Ignore (donnees verrouillees): TOPCon Module - Taiwan projects - SEA made (USD, FOB)
+2026-03-04 10:36:16,278 - INFO -   Ignore (donnees verrouillees): TOPCon Module - Taiwan made cell & module (USD, FOB)
+2026-03-04 10:36:16,278 - INFO -   Ignore (donnees verrouillees): TOPCon Module - Europe Residential projects - China made (EUR, FCA)
+2026-03-04 10:36:16,278 - INFO -   Ignore (donnees verrouillees): BC Module - Europe C&I projects - China made (EUR, FCA)
+2026-03-04 10:36:16,278 - INFO -   Ignore (donnees verrouillees): BC All Black Module - Europe Residential projects - China made (EUR, FCA)
+2026-03-04 10:36:16,278 - INFO - Total d'items extraits: 26
+2026-03-04 10:36:16,278 - INFO - Tentative de sauvegarde de 26 entrees
+2026-03-04 10:36:16,281 - INFO - Donnees brutes sauvegardees dans data/raw/2026-03-04_infolink_prices.csv
+2026-03-04 10:36:16,281 - INFO - Mise a jour du fichier historique data/processed/historical_infolink_prices.csv
+2026-03-04 10:36:16,281 - INFO - Lecture du fichier historique existant
+2026-03-04 10:36:16,283 - INFO - Nombre d'entrees historiques : 78
+2026-03-04 10:36:16,284 - INFO - Nombre d'entrees apres fusion : 104
+2026-03-04 10:36:16,285 - INFO - Nombre d'entrees apres dedoublonnage : 104
+2026-03-04 10:36:16,286 - INFO - Sauvegarde historique terminee avec succes
+2026-03-04 10:36:16,287 - INFO - Scraping InfoLink termine avec succes
