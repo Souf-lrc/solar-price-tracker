@@ -218,3 +218,21 @@ PermissionError: [Errno 13] Permission denied: 'data\\processed\\historical_ener
 2026-03-11 10:38:56,093 - INFO - Nombre d'entrees apres dedoublonnage : 85
 2026-03-11 10:38:56,094 - INFO - Sauvegarde historique terminee avec succes
 2026-03-11 10:38:56,094 - INFO - Scraping EnergyTrend termine avec succes
+2026-03-18 10:53:06,871 - INFO - Debut du scraping EnergyTrend
+2026-03-18 10:53:07,489 - INFO - Nombre total de tables trouvees: 7
+2026-03-18 10:53:07,489 - INFO - Traitement de la table: Polysilicon (Per KG)
+2026-03-18 10:53:07,490 - INFO - Traitement de la table: Wafer (Per Pcs.)
+2026-03-18 10:53:07,490 - INFO - Traitement de la table: Cell (Per Watt)
+2026-03-18 10:53:07,491 - INFO - Traitement de la table: Module (Per Watt)
+2026-03-18 10:53:07,491 - INFO - Traitement de la table: China Projects Module (Per Watt)
+2026-03-18 10:53:07,492 - INFO - Traitement de la table: PV Glass
+2026-03-18 10:53:07,492 - INFO - Total d'items extraits: 17
+2026-03-18 10:53:07,492 - INFO - Tentative de sauvegarde de 17 entrees
+2026-03-18 10:53:07,495 - INFO - Donnees brutes sauvegardees dans data/raw/2026-03-18_energytrend_prices.csv
+2026-03-18 10:53:07,495 - INFO - Mise a jour du fichier historique data/processed/historical_energytrend_prices.csv
+2026-03-18 10:53:07,495 - INFO - Lecture du fichier historique existant
+2026-03-18 10:53:07,496 - INFO - Nombre d'entrees historiques : 85
+2026-03-18 10:53:07,498 - INFO - Nombre d'entrees apres fusion : 102
+2026-03-18 10:53:07,499 - INFO - Nombre d'entrees apres dedoublonnage : 102
+2026-03-18 10:53:07,500 - INFO - Sauvegarde historique terminee avec succes
+2026-03-18 10:53:07,501 - INFO - Scraping EnergyTrend termine avec succes
