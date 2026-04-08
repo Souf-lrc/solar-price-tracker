@@ -148,3 +148,5 @@ PermissionError: [Errno 13] Permission denied: 'data\\raw\\2026-02-14_pvinsights
 2026-04-01 10:55:38,079 - INFO - Nombre d'entrees apres dedoublonnage : 144
 2026-04-01 10:55:38,080 - INFO - Sauvegarde historique terminee avec succes
 2026-04-01 10:55:38,081 - INFO - Scraping PVInsights termine avec succes
+2026-04-08 10:55:15,205 - INFO - Debut du scraping PVInsights
+2026-04-08 10:55:45,521 - ERROR - Erreur lors de la recuperation: HTTPConnectionPool(host='pvinsights.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='pvinsights.com', port=80) at 0x7f16787fddc0>, 'Connection to pvinsights.com timed out. (connect timeout=30)'))
