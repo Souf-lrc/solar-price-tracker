@@ -625,3 +625,22 @@ PermissionError: [Errno 13] Permission denied: 'data\\raw\\2026-02-14_infolink_p
 2026-05-27 12:51:11,472 - INFO - Nombre d'entrees apres dedoublonnage : 416
 2026-05-27 12:51:11,474 - INFO - Sauvegarde historique terminee avec succes
 2026-05-27 12:51:11,474 - INFO - Scraping InfoLink termine avec succes
+2026-06-03 14:28:00,983 - INFO - Debut du scraping InfoLink
+2026-06-03 14:28:02,048 - INFO - Nombre de sections de tables trouvees: 7
+2026-06-03 14:28:02,049 - INFO - Traitement de la table: Polysilicon
+2026-06-03 14:28:02,049 - INFO - Traitement de la table: N Type Wafer
+2026-06-03 14:28:02,050 - INFO - Traitement de la table: P Type Cell
+2026-06-03 14:28:02,050 - INFO - Traitement de la table: N Type Cell
+2026-06-03 14:28:02,050 - INFO - Traitement de la table: Glass to Glass Bifacial N Type Module
+2026-06-03 14:28:02,051 - INFO - Traitement de la table: China Projects Glass to Glass Bifacial Module
+2026-06-03 14:28:02,051 - INFO - Traitement de la table: Region Module
+2026-06-03 14:28:02,052 - INFO - Total d'items extraits: 42
+2026-06-03 14:28:02,052 - INFO - Tentative de sauvegarde de 42 entrees
+2026-06-03 14:28:02,055 - INFO - Donnees brutes sauvegardees dans data/raw/2026-06-03_infolink_prices.csv
+2026-06-03 14:28:02,055 - INFO - Mise a jour du fichier historique data/processed/historical_infolink_prices.csv
+2026-06-03 14:28:02,055 - INFO - Lecture du fichier historique existant
+2026-06-03 14:28:02,057 - INFO - Nombre d'entrees historiques : 416
+2026-06-03 14:28:02,059 - INFO - Nombre d'entrees apres fusion : 458
+2026-06-03 14:28:02,060 - INFO - Nombre d'entrees apres dedoublonnage : 458
+2026-06-03 14:28:02,062 - INFO - Sauvegarde historique terminee avec succes
+2026-06-03 14:28:02,062 - INFO - Scraping InfoLink termine avec succes

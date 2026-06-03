@@ -392,26 +392,68 @@ Region Module,"BC All Black Module - Europe Residential projects - China made (U
 Polysilicon,Polysilicon Price - Mono-grade polysilicon (USD),26.0,16.5,18.5,--,--,2026-05-27,infolink
 Polysilicon,Polysilicon Price - Mono-grade polysilicon (RMB),36.0,32.0,35.0,--,--,2026-05-27,infolink
 Polysilicon,Polysilicon Price - Granular polysilicon (RMB),36.0,34.0,34.5,--,--,2026-05-27,infolink
-N Type Wafer,Mono N Type Wafer - 182-183.75mm / 130µm (USD),0.133,0.130,0.133,--,--,2026-05-27,infolink
-N Type Wafer,Mono N Type Wafer - 182-183.75mm / 130µm (RMB),0.900,0.900,0.900,--,--,2026-05-27,infolink
-N Type Wafer,Mono N Type Wafer - 182*210mm / 130µm (RMB),1.000,0.980,1.000,--,--,2026-05-27,infolink
-N Type Wafer,Mono N Type Wafer - 210mm / 130µm (RMB),1.200,1.180,1.200,--,--,2026-05-27,infolink
-P Type Cell,Mono PERC Cell - 182-183.75mm / 23.1%+ (USD),0.050,0.049,0.050,--,--,2026-05-27,infolink
-N Type Cell,TOPCon Cell - China export - 182-183.75mm / 25.4%+ (USD),0.050,0.048,0.049,--,--,2026-05-27,infolink
-N Type Cell,TOPCon Cell - 182-183.75mm / 25.4%+ (RMB),0.330,0.320,0.325,-1.5,-0.005,2026-05-27,infolink
-N Type Cell,TOPCon Cell - 182*210mm / 25.4%+ (RMB),0.335,0.325,0.330,--,--,2026-05-27,infolink
-N Type Cell,TOPCon Cell - 210mm / 25.4%+ (RMB),0.340,0.330,0.335,--,--,2026-05-27,infolink
-Glass to Glass Bifacial N Type Module,182*182-210mm/210mm Mono TOPCon Module (USD),0.500,0.100,0.115,--,--,2026-05-27,infolink
-Glass to Glass Bifacial N Type Module,182*182-210mm/210mm Mono TOPCon Module (RMB),0.830,0.690,0.744,--,--,2026-05-27,infolink
-Glass to Glass Bifacial N Type Module,210mm  Mono HJT Module (USD),0.115,0.100,0.110,--,--,2026-05-27,infolink
-Glass to Glass Bifacial N Type Module,210mm  Mono HJT Module (RMB),0.830,0.730,0.750,--,--,2026-05-27,infolink
-China Projects Glass to Glass Bifacial Module,182*182-210mm/210mm TOPCon Module - Ground-mounted project,0.750,0.680,0.720,--,--,2026-05-27,infolink
-China Projects Glass to Glass Bifacial Module,182*182-210mm/210mm TOPCon Module - Distributed project,0.820,0.730,0.760,--,--,2026-05-27,infolink
-China Projects Glass to Glass Bifacial Module,182*182-210mm BC Module - Ground-mounted project,0.880,0.800,0.818,--,--,2026-05-27,infolink
-China Projects Glass to Glass Bifacial Module,182*182-210mm BC Module - C&I project,0.950,0.840,0.851,--,--,2026-05-27,infolink
-Region Module,"TOPCon Module - India assembled (USD, FOB)",0.170,0.145,0.150,--,--,2026-05-27,infolink
-Region Module,"TOPCon Module - US assembled (USD, DDP)",0.330,0.290,0.300,--,--,2026-05-27,infolink
-Region Module,"TOPCon Module - US projects - SEA made (USD, FOB)",0.290,0.250,0.270,--,--,2026-05-27,infolink
+N Type Wafer,Mono N Type Wafer - 182-183.75mm / 130µm (USD),0.133,0.13,0.133,--,--,2026-05-27,infolink
+N Type Wafer,Mono N Type Wafer - 182-183.75mm / 130µm (RMB),0.9,0.9,0.9,--,--,2026-05-27,infolink
+N Type Wafer,Mono N Type Wafer - 182*210mm / 130µm (RMB),1.0,0.98,1.0,--,--,2026-05-27,infolink
+N Type Wafer,Mono N Type Wafer - 210mm / 130µm (RMB),1.2,1.18,1.2,--,--,2026-05-27,infolink
+P Type Cell,Mono PERC Cell - 182-183.75mm / 23.1%+ (USD),0.05,0.049,0.05,--,--,2026-05-27,infolink
+N Type Cell,TOPCon Cell - China export - 182-183.75mm / 25.4%+ (USD),0.05,0.048,0.049,--,--,2026-05-27,infolink
+N Type Cell,TOPCon Cell - 182-183.75mm / 25.4%+ (RMB),0.33,0.32,0.325,-1.5,-0.005,2026-05-27,infolink
+N Type Cell,TOPCon Cell - 182*210mm / 25.4%+ (RMB),0.335,0.325,0.33,--,--,2026-05-27,infolink
+N Type Cell,TOPCon Cell - 210mm / 25.4%+ (RMB),0.34,0.33,0.335,--,--,2026-05-27,infolink
+Glass to Glass Bifacial N Type Module,182*182-210mm/210mm Mono TOPCon Module (USD),0.5,0.1,0.115,--,--,2026-05-27,infolink
+Glass to Glass Bifacial N Type Module,182*182-210mm/210mm Mono TOPCon Module (RMB),0.83,0.69,0.744,--,--,2026-05-27,infolink
+Glass to Glass Bifacial N Type Module,210mm  Mono HJT Module (USD),0.115,0.1,0.11,--,--,2026-05-27,infolink
+Glass to Glass Bifacial N Type Module,210mm  Mono HJT Module (RMB),0.83,0.73,0.75,--,--,2026-05-27,infolink
+China Projects Glass to Glass Bifacial Module,182*182-210mm/210mm TOPCon Module - Ground-mounted project,0.75,0.68,0.72,--,--,2026-05-27,infolink
+China Projects Glass to Glass Bifacial Module,182*182-210mm/210mm TOPCon Module - Distributed project,0.82,0.73,0.76,--,--,2026-05-27,infolink
+China Projects Glass to Glass Bifacial Module,182*182-210mm BC Module - Ground-mounted project,0.88,0.8,0.818,--,--,2026-05-27,infolink
+China Projects Glass to Glass Bifacial Module,182*182-210mm BC Module - C&I project,0.95,0.84,0.851,--,--,2026-05-27,infolink
+Region Module,"TOPCon Module - India assembled (USD, FOB)",0.17,0.145,0.15,--,--,2026-05-27,infolink
+Region Module,"TOPCon Module - US assembled (USD, DDP)",0.33,0.29,0.3,--,--,2026-05-27,infolink
+Region Module,"TOPCon Module - US projects - SEA made (USD, FOB)",0.29,0.25,0.27,--,--,2026-05-27,infolink
 Region Module,"TOPCon Module - Europe projects - China made (USD, FOB)",0.137,0.108,0.123,--,--,2026-05-27,infolink
 Region Module,"BC Module - Europe C&I projects - China made (USD, FOB)",0.177,0.125,0.143,--,--,2026-05-27,infolink
 Region Module,"BC All Black Module - Europe Residential projects - China made (USD, FOB)",0.241,0.183,0.204,--,--,2026-05-27,infolink
+Polysilicon,Polysilicon Price - Mono-grade polysilicon (USD),26.0,16.5,18.5,--,--,2026-06-03,infolink
+Polysilicon,Polysilicon Price - Mono-grade polysilicon - US made (USD),🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Polysilicon,"Polysilicon Price - Mono-grade polysilicon - Other non-China made (USD) (Germany, Malaysia, and other new regions, e.g. Oman)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Polysilicon,Polysilicon Price - Mono-grade polysilicon (RMB),36.0,32.0,35.0,--,--,2026-06-03,infolink
+Polysilicon,Polysilicon Price - Granular polysilicon (RMB),36.0,34.0,34.5,--,--,2026-06-03,infolink
+N Type Wafer,Mono N Type Wafer - 182-183.75mm / 130µm (USD),0.133,0.130,0.133,--,--,2026-06-03,infolink
+N Type Wafer,Mono N Type Wafer - 182-183.75mm / 130µm (RMB),0.900,0.880,0.900,--,--,2026-06-03,infolink
+N Type Wafer,Mono N Type Wafer - 182*210mm / 130µm (RMB),1.000,0.980,1.000,--,--,2026-06-03,infolink
+N Type Wafer,Mono N Type Wafer - 210mm / 130µm (RMB),1.200,1.180,1.200,--,--,2026-06-03,infolink
+P Type Cell,Mono PERC Cell - 182-183.75mm / 23.1%+ (USD),0.052,0.049,0.050,--,--,2026-06-03,infolink
+N Type Cell,TOPCon Cell - China export - 182-183.75mm / 25.4%+ (USD),0.050,0.048,0.048,-2.0,-0.001,2026-06-03,infolink
+N Type Cell,"TOPCon Cell - SEA made, China polysilicon - 182-183.75mm / 25.4%+ (USD)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+N Type Cell,TOPCon Cell - 182-183.75mm / 25.4%+ (RMB),0.325,0.315,0.320,-1.5,-0.005,2026-06-03,infolink
+N Type Cell,TOPCon Cell - 182*210mm / 25.4%+ (RMB),0.330,0.320,0.325,-1.5,-0.005,2026-06-03,infolink
+N Type Cell,TOPCon Cell - 210mm / 25.4%+ (RMB),0.335,0.330,0.330,-1.5,-0.005,2026-06-03,infolink
+Glass to Glass Bifacial N Type Module,182*182-210mm/210mm Mono TOPCon Module (USD),0.500,0.100,0.115,--,--,2026-06-03,infolink
+Glass to Glass Bifacial N Type Module,182*182-210mm/210mm Mono TOPCon Module (RMB),0.830,0.690,0.744,--,--,2026-06-03,infolink
+Glass to Glass Bifacial N Type Module,TOPCon high-efficiency modules (640W and above) (USD),🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Glass to Glass Bifacial N Type Module,210mm  Mono HJT Module (USD),0.115,0.100,0.110,--,--,2026-06-03,infolink
+Glass to Glass Bifacial N Type Module,210mm  Mono HJT Module (RMB),0.830,0.730,0.750,--,--,2026-06-03,infolink
+China Projects Glass to Glass Bifacial Module,182*182-210mm/210mm TOPCon Module - Ground-mounted project,0.750,0.680,0.720,--,--,2026-06-03,infolink
+China Projects Glass to Glass Bifacial Module,182*182-210mm/210mm TOPCon Module - Distributed project,0.820,0.730,0.760,--,--,2026-06-03,infolink
+China Projects Glass to Glass Bifacial Module,182*182-210mm BC Module - Ground-mounted project,0.880,0.800,0.818,--,--,2026-06-03,infolink
+China Projects Glass to Glass Bifacial Module,182*182-210mm BC Module - C&I project,0.950,0.840,0.851,--,--,2026-06-03,infolink
+Region Module,"TOPCon Module - India assembled (USD, FOB)",0.170,0.145,0.150,--,--,2026-06-03,infolink
+Region Module,"TOPCon Module - India made cell & module (USD, FOB)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - US assembled (USD, DDP)",0.330,0.290,0.300,--,--,2026-06-03,infolink
+Region Module,"TOPCon Module - US made cell & module (USD, DDP)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - US projects - SEA made (USD, FOB)",0.290,0.250,0.270,--,--,2026-06-03,infolink
+Region Module,"TOPCon Module - Europe projects - China made (USD, FOB)",0.137,0.108,0.123,--,--,2026-06-03,infolink
+Region Module,"BC Module - Europe C&I projects - China made (USD, FOB)",0.177,0.125,0.143,--,--,2026-06-03,infolink
+Region Module,"BC All Black Module - Europe Residential projects - China made (USD, FOB)",0.241,0.183,0.204,--,--,2026-06-03,infolink
+Region Module,"TOPCon Module - Europe Utility projects - China made (USD, FOB)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - Middle East projects - China made (USD, FOB)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - Asia-Pacific projects - China made (USD, FOB)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - Latin America projects - China made (USD, FOB)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - Africa projects - China made (USD, FOB)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - Taiwan projects - SEA made (USD, FOB)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - Taiwan made cell & module (USD, FOB)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"TOPCon Module - Europe Residential projects - China made (EUR, FCA)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"BC Module - Europe C&I projects - China made (EUR, FCA)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
+Region Module,"BC All Black Module - Europe Residential projects - China made (EUR, FCA)",🔒,🔒,🔒,🔒,🔒,2026-06-03,infolink
