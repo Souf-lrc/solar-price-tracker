@@ -1,0 +1,18 @@
+source,category,item_name,high,low,avg,change,date
+energytrend,Polysilicon (Per KG),N-Type Recharge Polysilicon (RMB),36,34,35,( -2.78 % ),2026-06-24
+energytrend,Polysilicon (Per KG),N-Type Dense Polysilicon (RMB),34,32,33,( -2.94 % ),2026-06-24
+energytrend,Polysilicon (Per KG),N-Type Granular Polysilicon (RMB),32,31,31,( -3.13 % ),2026-06-24
+energytrend,Polysilicon (Per KG),Polysilicon Outside China (USD),22,13.1,17.5,( 0.0 % ),2026-06-24
+energytrend,Wafer (Per Pcs.),N-Type M10 Mono Wafer - 183mm/130μm (RMB),0.9,0.88,0.88,( 0.0 % ),2026-06-24
+energytrend,Wafer (Per Pcs.),N-Type G12 Mono Wafer - 210mm/130μm (RMB),1.2,1.17,1.18,( 0.0 % ),2026-06-24
+energytrend,Wafer (Per Pcs.),N-Type 210R Mono Wafer-210*182mm/130μm (RMB),1,0.98,0.98,( 0.0 % ),2026-06-24
+energytrend,Cell (Per Watt),M10L TOPCon Cell (RMB),0.295,0.29,0.29,( -4.92 % ),2026-06-24
+energytrend,Cell (Per Watt),G12 TOPCon Cell (RMB),0.31,0.3,0.305,( -4.69 % ),2026-06-24
+energytrend,Cell (Per Watt),G12R TOPCon Cell (RMB),0.3,0.295,0.3,( -4.76 % ),2026-06-24
+energytrend,Module (Per Watt),182mm TOPCon Module (RMB),0.75,0.7,0.74,( 0.0 % ),2026-06-24
+energytrend,Module (Per Watt),210mm HJT Module (RMB),0.8,0.75,0.76,( 0.0 % ),2026-06-24
+energytrend,China Projects Module (Per Watt),Ground-mounted Project 182-210mm TOPCon Module (RMB),0.75,0.7,0.72,( 0.0 % ),2026-06-24
+energytrend,China Projects Module (Per Watt),Distributed project 182-210mm TOPCon Module (RMB),0.8,0.74,0.75,( 0.0 % ),2026-06-24
+energytrend,PV Glass,2.0mm Double-glazed and Coated PV Glass (RMB),10.5,9.5,10,( 0.0 % ),2026-06-24
+energytrend,PV Glass,3.2mm Double-glazed and Coated PV Glass (RMB),17,16,16.5,( 0.0 % ),2026-06-24
+energytrend,PV Glass,2.0 Rear PV Glass (RMB),8.5,8,8,( 0.0 % ),2026-06-24
