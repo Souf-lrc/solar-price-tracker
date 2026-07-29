@@ -278,3 +278,19 @@ PermissionError: [Errno 13] Permission denied: 'data\\raw\\2026-02-14_pvinsights
 2026-07-15 11:27:53,310 - ERROR - Erreur lors de la recuperation: HTTPConnectionPool(host='pvinsights.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='pvinsights.com', port=80) at 0x7faa229342f0>, 'Connection to pvinsights.com timed out. (connect timeout=30)'))
 2026-07-22 11:45:52,180 - INFO - Debut du scraping PVInsights
 2026-07-22 11:46:22,435 - ERROR - Erreur lors de la recuperation: HTTPConnectionPool(host='pvinsights.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='pvinsights.com', port=80) at 0x7f69449ce210>, 'Connection to pvinsights.com timed out. (connect timeout=30)'))
+2026-07-29 11:59:54,839 - INFO - Debut du scraping PVInsights
+2026-07-29 11:59:55,781 - INFO - Tables de prix trouvees: 4
+2026-07-29 11:59:55,782 - INFO - Traitement de la table: PV PolySilicon
+2026-07-29 11:59:55,782 - INFO - Traitement de la table: Solar PV Wafer
+2026-07-29 11:59:55,782 - INFO - Traitement de la table: Solar PV Cell
+2026-07-29 11:59:55,783 - INFO - Traitement de la table: Solar PV Module
+2026-07-29 11:59:55,784 - INFO - Total d'items extraits: 18
+2026-07-29 11:59:55,784 - INFO - Tentative de sauvegarde de 18 entrees
+2026-07-29 11:59:55,786 - INFO - Donnees brutes sauvegardees dans data/raw/2026-07-29_pvinsights_prices.csv
+2026-07-29 11:59:55,786 - INFO - Mise a jour du fichier historique data/processed/historical_pvinsights_prices.csv
+2026-07-29 11:59:55,786 - INFO - Lecture du fichier historique existant
+2026-07-29 11:59:55,788 - INFO - Nombre d'entrees historiques : 270
+2026-07-29 11:59:55,789 - INFO - Nombre d'entrees apres fusion : 288
+2026-07-29 11:59:55,790 - INFO - Nombre d'entrees apres dedoublonnage : 288
+2026-07-29 11:59:55,792 - INFO - Sauvegarde historique terminee avec succes
+2026-07-29 11:59:55,793 - INFO - Scraping PVInsights termine avec succes
