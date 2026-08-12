@@ -424,10 +424,10 @@ China Projects Module (Per Watt),Distributed project 182-210mm TOPCon Module (RM
 PV Glass,2.0mm Double-glazed and Coated PV Glass (RMB),10.5,9.5,10.0,( 0.0 % ),2026-07-29,energytrend
 PV Glass,3.2mm Double-glazed and Coated PV Glass (RMB),17.0,16.0,16.5,( 0.0 % ),2026-07-29,energytrend
 PV Glass,2.0 Rear PV Glass (RMB),8.5,8.0,8.0,( 0.0 % ),2026-07-29,energytrend
-Polysilicon (Per KG),N-Type Recharge Polysilicon (RMB),34,33,33.5,( 0.0 % ),2026-08-05,energytrend
-Polysilicon (Per KG),N-Type Dense Polysilicon (RMB),33,32,32.5,( 0.0 % ),2026-08-05,energytrend
-Polysilicon (Per KG),N-Type Granular Polysilicon (RMB),32,30,31,( 0.0 % ),2026-08-05,energytrend
-Polysilicon (Per KG),Polysilicon Outside China (USD),22,13.1,17.5,( 0.0 % ),2026-08-05,energytrend
+Polysilicon (Per KG),N-Type Recharge Polysilicon (RMB),34.0,33.0,33.5,( 0.0 % ),2026-08-05,energytrend
+Polysilicon (Per KG),N-Type Dense Polysilicon (RMB),33.0,32.0,32.5,( 0.0 % ),2026-08-05,energytrend
+Polysilicon (Per KG),N-Type Granular Polysilicon (RMB),32.0,30.0,31.0,( 0.0 % ),2026-08-05,energytrend
+Polysilicon (Per KG),Polysilicon Outside China (USD),22.0,13.1,17.5,( 0.0 % ),2026-08-05,energytrend
 Wafer (Per Pcs.),N-Type M10 Mono Wafer - 183mm/130μm (RMB),0.8,0.78,0.8,( -1.23 % ),2026-08-05,energytrend
 Wafer (Per Pcs.),N-Type G12 Mono Wafer - 210mm/130μm (RMB),1.1,1.08,1.1,( -0.9 % ),2026-08-05,energytrend
 Wafer (Per Pcs.),N-Type 210R Mono Wafer-210*182mm/130μm (RMB),0.9,0.88,0.9,( -1.1 % ),2026-08-05,energytrend
@@ -438,6 +438,23 @@ Module (Per Watt),182mm TOPCon Module (RMB),0.68,0.65,0.67,( 0.0 % ),2026-08-05,
 Module (Per Watt),210mm HJT Module (RMB),0.8,0.7,0.7,( 0.0 % ),2026-08-05,energytrend
 China Projects Module (Per Watt),Ground-mounted Project 182-210mm TOPCon Module (RMB),0.72,0.65,0.7,( 0.0 % ),2026-08-05,energytrend
 China Projects Module (Per Watt),Distributed project 182-210mm TOPCon Module (RMB),0.75,0.67,0.72,( 0.0 % ),2026-08-05,energytrend
-PV Glass,2.0mm Double-glazed and Coated PV Glass (RMB),10.5,9.5,10,( 0.0 % ),2026-08-05,energytrend
-PV Glass,3.2mm Double-glazed and Coated PV Glass (RMB),17,16,16.5,( 0.0 % ),2026-08-05,energytrend
-PV Glass,2.0 Rear PV Glass (RMB),8.5,8,8,( 0.0 % ),2026-08-05,energytrend
+PV Glass,2.0mm Double-glazed and Coated PV Glass (RMB),10.5,9.5,10.0,( 0.0 % ),2026-08-05,energytrend
+PV Glass,3.2mm Double-glazed and Coated PV Glass (RMB),17.0,16.0,16.5,( 0.0 % ),2026-08-05,energytrend
+PV Glass,2.0 Rear PV Glass (RMB),8.5,8.0,8.0,( 0.0 % ),2026-08-05,energytrend
+Polysilicon (Per KG),N-Type Recharge Polysilicon (RMB),34,33,33.5,( 0.0 % ),2026-08-12,energytrend
+Polysilicon (Per KG),N-Type Dense Polysilicon (RMB),33,32,32.5,( 0.0 % ),2026-08-12,energytrend
+Polysilicon (Per KG),N-Type Granular Polysilicon (RMB),32,30,31,( 0.0 % ),2026-08-12,energytrend
+Polysilicon (Per KG),Polysilicon Outside China (USD),22,13.1,17.5,( 0.0 % ),2026-08-12,energytrend
+Wafer (Per Pcs.),N-Type M10 Mono Wafer - 183mm/130μm (RMB),0.9,0.78,0.8,( 0.0 % ),2026-08-12,energytrend
+Wafer (Per Pcs.),N-Type G12 Mono Wafer - 210mm/130μm (RMB),1.2,1.08,1.1,( 0.0 % ),2026-08-12,energytrend
+Wafer (Per Pcs.),N-Type 210R Mono Wafer-210*182mm/130μm (RMB),1,0.88,0.9,( 0.0 % ),2026-08-12,energytrend
+Cell (Per Watt),M10L TOPCon Cell (RMB),0.3,0.29,0.29,( 9.43 % ),2026-08-12,energytrend
+Cell (Per Watt),G12 TOPCon Cell (RMB),0.3,0.285,0.285,( 9.62 % ),2026-08-12,energytrend
+Cell (Per Watt),G12R TOPCon Cell (RMB),0.3,0.28,0.28,( 7.69 % ),2026-08-12,energytrend
+Module (Per Watt),182mm TOPCon Module (RMB),0.69,0.66,0.68,( 1.49 % ),2026-08-12,energytrend
+Module (Per Watt),210mm HJT Module (RMB),0.8,0.7,0.7,( 0.0 % ),2026-08-12,energytrend
+China Projects Module (Per Watt),Ground-mounted Project 182-210mm TOPCon Module (RMB),0.72,0.65,0.7,( 0.0 % ),2026-08-12,energytrend
+China Projects Module (Per Watt),Distributed project 182-210mm TOPCon Module (RMB),0.75,0.67,0.72,( 0.0 % ),2026-08-12,energytrend
+PV Glass,2.0mm Double-glazed and Coated PV Glass (RMB),11,10,10.5,( 5.0 % ),2026-08-12,energytrend
+PV Glass,3.2mm Double-glazed and Coated PV Glass (RMB),18,17,17,( 3.03 % ),2026-08-12,energytrend
+PV Glass,2.0 Rear PV Glass (RMB),9,8,8.5,( 6.25 % ),2026-08-12,energytrend
