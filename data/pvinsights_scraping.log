@@ -478,3 +478,19 @@ PermissionError: [Errno 13] Permission denied: 'data\\raw\\2026-02-14_pvinsights
 2026-11-11 17:42:39,942 - INFO - Nombre d'entrees apres dedoublonnage : 486
 2026-11-11 17:42:39,944 - INFO - Sauvegarde historique terminee avec succes
 2026-11-11 17:42:39,944 - INFO - Scraping PVInsights termine avec succes
+2026-11-18 18:39:43,041 - INFO - Debut du scraping PVInsights
+2026-11-18 18:39:44,078 - INFO - Tables de prix trouvees: 4
+2026-11-18 18:39:44,078 - INFO - Traitement de la table: PV PolySilicon
+2026-11-18 18:39:44,078 - INFO - Traitement de la table: Solar PV Wafer
+2026-11-18 18:39:44,078 - INFO - Traitement de la table: Solar PV Cell
+2026-11-18 18:39:44,078 - INFO - Traitement de la table: Solar PV Module
+2026-11-18 18:39:44,079 - INFO - Total d'items extraits: 18
+2026-11-18 18:39:44,079 - INFO - Tentative de sauvegarde de 18 entrees
+2026-11-18 18:39:44,081 - INFO - Donnees brutes sauvegardees dans data/raw/2026-11-18_pvinsights_prices.csv
+2026-11-18 18:39:44,081 - INFO - Mise a jour du fichier historique data/processed/historical_pvinsights_prices.csv
+2026-11-18 18:39:44,081 - INFO - Lecture du fichier historique existant
+2026-11-18 18:39:44,082 - INFO - Nombre d'entrees historiques : 486
+2026-11-18 18:39:44,083 - INFO - Nombre d'entrees apres fusion : 504
+2026-11-18 18:39:44,084 - INFO - Nombre d'entrees apres dedoublonnage : 504
+2026-11-18 18:39:44,085 - INFO - Sauvegarde historique terminee avec succes
+2026-11-18 18:39:44,085 - INFO - Scraping PVInsights termine avec succes
